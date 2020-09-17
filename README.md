@@ -49,4 +49,16 @@ yarn add element-ui@^2.4.5
    Vue.use(Button);
    ```
 
+4. 配置i18n
+
+   安装vue-i18n依赖
+
+   ```
+   yarn add vue-i18n@^8.17.3
+   ```
+
    
+
+5. 关于VueCLI插件
+
+VueCLI插件的名字以`@vue/cli-plugin-`（内部建插件）或`vue-cli-plugin-`（社区插件）开头，非常容易使用。
