@@ -1,0 +1,12 @@
+# Ignore artifacts:
+build
+node_modules
+/dist
+
+# Ignore all HTML files:
+*.html
+
+# Ignore files:
+yarn.lock
+yarn-error.log
+README.md

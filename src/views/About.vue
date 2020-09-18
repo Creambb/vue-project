@@ -5,6 +5,6 @@
 </template>
 
 <script lang="ts">
-import Vue from 'vue'
-export default class About extends Vue {}
+  import Vue from 'vue';
+  export default class About extends Vue {}
 </script>
