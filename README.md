@@ -247,20 +247,19 @@ yarn add @typescript-eslint/eslint-plugin@latest --dev
 yarn add @typescript-eslint/parser --dev
 ```
 
+安装eslint-config-typescript，是为TypeScript项目设计的一套ESLint规则。
+
+```
+// eslint-config-typescript为TypeScript项目设计的一套ESLint规则
+// eslint-config-typescript for vue-cli
+yarn add @vue/eslint-config-typescript --dev
+```
+
 手动配置.eslintrc.json
 
 ```
 
 ```
-
-安装eslint-config-typescript，是为TypeScript项目设计的一套ESLint规则。
-
-```
-// eslint-config-typescript为TypeScript项目设计的一套ESLint规则
-
-```
-
-
 
 8.使用Prettier
 
@@ -374,7 +373,11 @@ extends: [
 ],
 ```
 
+运行eslint
 
+```
+yarn lint
+```
 
 参考链接：[使用ESLint+Prettier来统一前端代码风格](https://juejin.im/post/6844903621805473800)
 

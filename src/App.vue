@@ -5,20 +5,20 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+  import HelloWorld from './components/HelloWorld.vue';
 
-export default {
-  name: 'app',
-  components: {
-    HelloWorld
-  }
-}
+  export default {
+    name: 'app',
+    components: {
+      HelloWorld,
+    },
+  };
 </script>
 
 <style>
-#app {
-  width: 100%;
-  height: 100%;
-  text-align: center;
-}
+  #app {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+  }
 </style>
