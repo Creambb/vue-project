@@ -1,0 +1,10 @@
+{
+  "tabWidth": 2,
+  "vueIndentScriptAndStyle": true,
+  "endOfLine": "lf",
+  "semi": true,
+  "quoteProps": "as-needed",
+  "singleQuote": true,
+  "trailingComma": "all",
+  "htmlWhitespaceSensitivity": "ignore"
+}
