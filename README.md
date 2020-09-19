@@ -261,6 +261,26 @@ yarn add @vue/eslint-config-typescript --dev
 
 ```
 
+使用CLI插件
+
+```
+vue add eslint
+```
+
+会自动添加下面的依赖，并生成.eslintrc.js。
+
+```
+@typescript-eslint/eslint-plugin,
+@typescript-eslint/parser,
+@vue/cli-plugin-eslint,
+@vue/eslint-config-prettier,
+@vue/eslint-config-typescript,
+eslint,
+eslint-plugin-prettier": "^3.1.3",
+eslint-plugin-vue": "^6.2.2",
+prettier": "^1.19.1",
+```
+
 8.使用Prettier
 
 ```
@@ -314,6 +334,10 @@ yarn prettier --write <filename>
 ```
 
 9.ESLint 与 Prettier配合使用
+
+>为什么需要ESLint配合Prettier使用呢？
+>
+>使用ESLint配合这些规范，能够检测出代码中的潜在问题，提高代码质量，但是并不能完全统一代码风格，因为这些代码规范的重点并不在代码风格上。Prettier是一个能够完全统一代码风格的利器，可以保证代码的可读性。ESLint的重点在于检测，Prettier重点在于统一修改。
 
 安装插件
 
